@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+.btn{
+
+    padding: 17px 20px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px;
+    border: none;
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #0c0;;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #096A09;
+}
+
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #313334;
+}
